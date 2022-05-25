@@ -84,15 +84,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\PageMarkUp.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\PageModel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\PagePostafshik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagePriceList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -110,14 +110,14 @@
     <Compile Include="Pages\PageMain.xaml.cs">
       <DependentUpon>PageMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\PageMarkUp.xaml.cs">
-      <DependentUpon>PageMarkUp.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\PageModel.xaml.cs">
       <DependentUpon>PageModel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PagePostafshik.xaml.cs">
       <DependentUpon>PagePostafshik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagePriceList.xaml.cs">
+      <DependentUpon>PagePriceList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

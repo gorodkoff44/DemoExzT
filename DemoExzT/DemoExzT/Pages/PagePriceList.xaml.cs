@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace DemoExzT.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для PageMarkUp.xaml
+    /// Логика взаимодействия для PagePriceList.xaml
     /// </summary>
-    public partial class PageMarkUp : Page
+    public partial class PagePriceList : Page
     {
-        public PageMarkUp()
+        public PagePriceList()
         {
             InitializeComponent();
         }

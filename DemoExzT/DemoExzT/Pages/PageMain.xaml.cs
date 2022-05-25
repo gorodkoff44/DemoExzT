@@ -30,5 +30,30 @@ namespace DemoExzT.Pages
         {
             FrameObject.frMain.Navigate(new Pages.PageClient());
         }
+
+        private void btnModel_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObject.frMain.Navigate(new Pages.PageModel());
+        }
+
+        private void btnDeal_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObject.frMain.Navigate(new Pages.PageDeal());
+        }
+
+        private void btnPostafshik_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObject.frMain.Navigate(new Pages.PagePostafshik());
+        }
+
+        private void btnFirm_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObject.frMain.Navigate(new Pages.PageFirm());
+        }
+
+        private void btnPriceList_Click(object sender, RoutedEventArgs e)
+        {
+            FrameObject.frMain.Navigate(new Pages.PagePriceList());
+        }
     }
 }

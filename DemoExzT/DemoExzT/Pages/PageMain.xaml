@@ -12,13 +12,13 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
             <StackPanel Orientation="Vertical">
                 <Button x:Name="btnClient" Content="Клиенты" Style="{StaticResource btnMain}" Click="btnClient_Click" ></Button>
-                <Button x:Name="btnModel" Content="Модели" Style="{StaticResource btnMain}" ></Button>
-                <Button x:Name="btnDeal" Content="Сделка" Style="{StaticResource btnMain}" ></Button>
+                <Button x:Name="btnModel" Content="Модели" Style="{StaticResource btnMain}" Click="btnModel_Click" ></Button>
+                <Button x:Name="btnDeal" Content="Сделка" Style="{StaticResource btnMain}" Click="btnDeal_Click"></Button>
             </StackPanel>
             <StackPanel Orientation="Vertical">
-                <Button x:Name="btnPostafshik" Content="Поставщики" Style="{StaticResource btnMain}" ></Button>
-                <Button x:Name="btnFirm" Content="Фирма" Style="{StaticResource btnMain}" ></Button>
-                <Button x:Name="btnPriceList" Content="Прейскурант" Style="{StaticResource btnMain}" ></Button>
+                <Button x:Name="btnPostafshik" Content="Поставщики" Style="{StaticResource btnMain}" Click="btnPostafshik_Click" ></Button>
+                <Button x:Name="btnFirm" Content="Фирма" Style="{StaticResource btnMain}" Click="btnFirm_Click" ></Button>
+                <Button x:Name="btnPriceList" Content="Прейскурант" Style="{StaticResource btnMain}" Click="btnPriceList_Click"></Button>
             </StackPanel>
         </StackPanel>
 

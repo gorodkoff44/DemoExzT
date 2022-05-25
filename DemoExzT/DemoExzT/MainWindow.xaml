@@ -19,7 +19,7 @@
         
         <Grid Grid.Row="1"></Grid>
 
-        <Frame x:Name="FrmMain" NavigationUIVisibility="Hidden" ContentRendered="FrmMain_ContentRendered"></Frame>
+        <Frame Grid.Row="1" x:Name="FrmMain" NavigationUIVisibility="Hidden" ContentRendered="FrmMain_ContentRendered"></Frame>
     </Grid>
 </Window>
 

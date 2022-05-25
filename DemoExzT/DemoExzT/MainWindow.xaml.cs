@@ -26,16 +26,29 @@ namespace DemoExzT
             InitializeComponent();
 
             FrameObject.frMain = FrmMain;
+
+            FrmMain.Navigate(new Pages.PageMain());
+           
         }
 
         private void btnBack_Click(object sender, RoutedEventArgs e)
         {
-
+            if(FrameObject.frMain.CanGoBack)
+            {
+                FrameObject.frMain.GoBack();
+            }
         }
 
         private void FrmMain_ContentRendered(object sender, EventArgs e)
         {
-
+            if(FrmMain.CanGoBack)
+            {
+                btnBack.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                btnBack.Visibility = Visibility.Hidden;
+            }
         }
     }
 }
